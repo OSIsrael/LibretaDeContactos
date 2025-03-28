@@ -8,7 +8,11 @@ import java.util.GregorianCalendar;
 public class Principal {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-
+        Persona personita = new Persona();
+        personita.setCedula("123456789");
+        personita.setNombre("Juan");
+        personita.setApellido("Perez");
+        personita.setDireccion("Por ahi");
 
         System.out.print("¿Cuántas personas quieres ingresar?: ");
         int numeroDePersonas = leer.nextInt();
