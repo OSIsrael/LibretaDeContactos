@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
 public class Principal {
     //El código funciona de manera correcta
     // Commit de Einar Kaalhus a Orellana Israel
-    //Penei
+
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         Persona personita = new Persona();
